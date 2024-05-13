@@ -1,4 +1,4 @@
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=contact%20Me)](https://linkedin.com/in/zatribune)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=contact%20Me)](https://www.linkedin.com/in/gautam-kumar1029/)
 ## Overview
 This is a Demo Project for an E-commerce Microservices Application that demonstrates Event-driven architecture using Kafka.  
 <p align="center">
