@@ -6,13 +6,13 @@
 
 
     <parent>
-        <groupId>com.zatribune.spring</groupId>
+        <groupId>com.gtm.spring</groupId>
         <artifactId>ecommerce</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>commons</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <properties>

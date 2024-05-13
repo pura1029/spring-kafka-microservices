@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.zatribune.spring</groupId>
+        <groupId>com.gtm.spring</groupId>
         <artifactId>ecommerce</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>ms-stock</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <description>Stock Microservice</description>
 
     <properties>
@@ -18,7 +18,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.zatribune.spring</groupId>
+            <groupId>com.gtm.spring</groupId>
             <artifactId>commons</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -72,7 +72,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.zatribune.spring.ecommerce.stock.StockApplication</mainClass>
+                            <mainClass>com.gtm.spring.ecommerce.stock.StockApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
