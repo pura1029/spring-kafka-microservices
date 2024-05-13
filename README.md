@@ -68,3 +68,11 @@ Alternately, you can use those images with **Kubernetes**.
 &nbsp;&nbsp;&nbsp;&nbsp;**MySQL** - A relational database management system [Optional].  
 &nbsp;&nbsp;&nbsp;&nbsp;**Docker** - A containerization platform.  
 &nbsp;&nbsp;&nbsp;&nbsp;**Maven** - Build tool & Dependency Management.  
+
+## Steps to deploy
+1. [Download kafka](https://www.apache.org/dyn/closer.cgi?path=/kafka/3.7.0/kafka_2.13-3.7.0.tgz)
+2. Run zookeeper, Kafka: [kafka quick start](https://kafka.apache.org/quickstart)
+3. Store the data h2 database
+4. Run Kafka ui : [Kafka ui](https://docs.kafka-ui.provectus.io/quick-start/demo-run) ```
+                (docker run -d --name kafka-ui -p 8080:8080 -e DYNAMIC_CONFIG_ENABLED=true provectuslabs/kafka-ui) ```
+5. Run Spring boot application.
