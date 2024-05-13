@@ -69,7 +69,7 @@ Alternately, you can use those images with **Kubernetes**.
 &nbsp;&nbsp;&nbsp;&nbsp;**Docker** - A containerization platform.  
 &nbsp;&nbsp;&nbsp;&nbsp;**Maven** - Build tool & Dependency Management.  
 
-## Steps to deploy
+## Steps to Run in local machine
 1. [Download kafka](https://www.apache.org/dyn/closer.cgi?path=/kafka/3.7.0/kafka_2.13-3.7.0.tgz)
 2. Run zookeeper, Kafka: [kafka quick start](https://kafka.apache.org/quickstart)
 3. Store the data h2 database
