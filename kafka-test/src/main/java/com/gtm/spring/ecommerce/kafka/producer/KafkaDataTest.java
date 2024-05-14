@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.Random;
+import java.util.UUID;
 
 /**
  * @author kumargautam
@@ -27,10 +28,9 @@ public class KafkaDataTest {
 
     @PostConstruct
     public void push() {
-        Random random = new Random();
         for (int i = 0; i < 10; i++) {
-            int id = random.nextInt(100);
-            kafkaTemplate.send("kafka-test", String.valueOf(id), "Hello Kafka-" + id + " " + i);
+            String id = UUID.randomUUID().toString();
+            kafkaTemplate.send("kafka-test", id, "Hello Kafka-" + id + " " + i);
         }
     }
 }
